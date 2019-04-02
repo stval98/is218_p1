@@ -1,0 +1,26 @@
+header { 
+  font-size: 25px;
+  font-family: Segoe UI;
+  display: block;
+  text-align: center;
+  padding: 40px;
+  padding-bottom: 15px;
+}
+
+.content{ 
+	background:white;
+	font-size: 20px;
+	font-family: Segoe UI;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 250px;
+	height: 250px;
+	margin: -100px 0 0 -100px;
+	padding-bottom: 15px;
+}
+
+label { float: left; width: 10em; margin-right: 1em; text-align: left; }
+input:focus {
+      background: #99ccff; 
+}
