@@ -4,7 +4,7 @@
 2. Each team must submit the following items on moodle (1) a readme file containing all the team member names; (2) source code; and (3) the AFS link (you need to publish your system on AFS publicly). Without a readme file, or source code, or AFS, the submission will be desk-rejected without a review.
 3. A team should choose one member to make one submission on moodle.
 
-***System requirements (95%):***
+***System requirements (95%)***
 Please design a simple user management system. The system must have user sign-up, sign-out, and login functions
 The system should have a user log-in page taking the following information from users:
 + User name: must be an email address
