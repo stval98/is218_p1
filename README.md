@@ -5,6 +5,7 @@
 3. A team should choose one member to make one submission on moodle.
 
 ***System requirements (95%)***
+===
 Please design a simple user management system. The system must have user sign-up, sign-out, and login functions
 The system should have a user log-in page taking the following information from users:
 + User name: must be an email address
