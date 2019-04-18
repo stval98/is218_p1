@@ -12,12 +12,10 @@
 		<h1 id="title">User Profile</h1>
 	</header>
 	<div id="content" class="content">
-		<label for="fname"><br>
-		<label for="lname"><br>
-		<label for="college"><br>
-		<label for="major"><br>
-		<label for="username"><br>
-		<label for="pass"><br>
+		<label for="fname">First name: <?php echo htmlspecialchars($_POST['fname']); ?><br>
+		<label for="lname">Last name: <?php echo htmlspecialchars($_POST['lname']); ?><br>
+		<label for="college">College: <?php echo htmlspecialchars($_POST['college']); ?><br>
+		<label for="major">Major: <?php echo htmlspecialchars($_POST['major']); ?><br><br>
 		<button id="logout" type="button" value="Log-out" onclick="logout()">Log-out</button> <!--USE INNER HTML TO CHANGE PAGE TO SAY “You have successfully signed out.”-->
 	</div>
 	<!--SCRIPTS-->

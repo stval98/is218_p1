@@ -1,26 +1,48 @@
-header { 
-  font-size: 25px;
-  font-family: Segoe UI;
-  display: block;
-  text-align: center;
-  padding: 40px;
-  padding-bottom: 15px;
+body{
+	text-align: center;
+	padding: 50px;
 }
-
-.content{ 
-	background:white;
+#content{
+	padding-bottom: 20px;
+	vertical-align: center;
+	margin: auto;
+	width: 40%;
+	height: 50%;
 	font-size: 20px;
 	font-family: Segoe UI;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	width: 250px;
-	height: 250px;
-	margin: -100px 0 0 -100px;
-	padding-bottom: 15px;
 }
-
-label { float: left; width: 10em; margin-right: 1em; text-align: left; }
-input:focus {
-      background: #99ccff; 
+header {
+	display: block;
+	text-align: center;
+	vertical-align: center;
+	font-family: Segoe UI;
+	font-size: 25px;
+}
+form {
+  margin:0 auto;
+  width:300px
+}
+input {
+  margin-bottom:3px;
+  padding:10px;
+  width: 100%;
+  border:1px solid #CCC
+}
+button {
+  padding:10px
+}
+label {
+  cursor:pointer
+}
+#form-switch {
+  display:none
+}
+#register-form {
+  display:none
+}
+#form-switch:checked~#register-form {
+  display:block
+}
+#form-switch:checked~#login-form {
+  display:none
 }
