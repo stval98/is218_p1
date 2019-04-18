@@ -1,8 +1,6 @@
-# Group Project \#1: Design a web-based user management system
-
-1. This is a group project and each team can have up to 4 members.
-2. Each team must submit the following items on moodle (1) a readme file containing all the team member names; (2) source code; and (3) the AFS link (you need to publish your system on AFS publicly). Without a readme file, or source code, or AFS, the submission will be desk-rejected without a review.
-3. A team should choose one member to make one submission on moodle.
+Sophia Saint-Val
+IS 218-002
+https://web.njit.edu/~sas238/download/IS218/Projects/Project%201/login.html
 
 ***System requirements (95%)***
 ===
